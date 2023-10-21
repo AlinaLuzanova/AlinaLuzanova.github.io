@@ -1,0 +1,224 @@
+html{
+    background: #4520AB;
+}
+body{
+    font-family: 'IBM Plex Mono', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: #4520AB;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+header > .info{
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 600;
+}
+.info{
+    display: flex;
+    gap: 1em;
+}
+.infoNoSearch{
+    display: flex;
+    gap: 1em;
+}
+
+.account > img{
+    background-color: lightgray;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 140px;
+}
+.logo{
+    margin-left: 140px;
+    width: fit-content;
+
+}
+.infoTab{
+ display: flex;
+    opacity: 30%;
+    transition: color,opacity 0.3s ease;
+
+}
+
+.infoTa{
+
+    color:#FFBC5B;
+    opacity: 100%;
+}
+.infoTab:hover{
+    color:#FFBC5B;
+    opacity: 100%;
+}
+.infoTa>hr{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #FFBC5B;
+    top:67px;
+    width: 98px;
+    box-shadow: none;
+    border: none;
+    height: 2px;
+}
+
+main{
+    background-color: black;
+    height: fit-content;
+    padding: 0 140px 100px;
+    width: inherit;
+}
+.subscribe{
+    padding-top: 8%;
+    width: 100%;
+}
+.imagePlaceholderParent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    gap: 3%;
+    padding-top: 2em;
+
+}
+h2{
+    font-size: 30px;
+    margin: 0;
+    color: #FFBC5B;
+}
+.subImage{
+    width: 300px;
+    height: auto;
+}
+.arrow{
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFBC5B;
+    padding-left: 2%;
+}
+.imagePlaceholderChild{
+    position: relative;
+}
+.imagePlaceholderChild > span{
+    color: #989898;
+    font-size: 16px;
+    display: block;
+    padding: 1% 0;
+}
+.rate{
+    position: absolute;
+    padding: 3px 12px 3px 12px;
+    border-radius: 6px;
+    background-color: #FFBC5B;
+    color: black;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    font-weight: 1000;
+    text-align: center;
+
+
+}
+.recommendation{
+    padding-top: 100px;
+}
+.recPlaceholderParent{
+    padding-top: 2em;
+    display: flex;
+    gap: 3%;
+}
+.recImage{
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+}
+.recPlaceholderChild > span{
+    color: #989898;
+    font-size: 16px;
+    display: block;
+    padding: 1% 0;
+}
+.recPlaceholderChild{
+    position: relative;
+}
+.login{
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 2%;
+    width: 300px;
+    margin: 20% 0 0 35%;
+    z-index: 2;
+}
+
+#initWindow{
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+    background-color: #F3F2EF;
+    border-radius: 20px;
+    padding: 2%;
+    position: relative;
+    width: 180px;
+    display: flex;
+}
+.login > input{
+    margin: 1% 1% 2% 1%;
+    color: #4520AB;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border:none
+}
+button{
+    background-color: #F6EBEF;
+    color: #4520AB;
+    border:none;
+    border-radius: 15px;
+    padding: 5%;
+    margin-top: 0.5em;
+    width: fit-content;
+
+}
+#initWindow{
+    width: inherit;
+    position: absolute;
+}
+
+#signUp{
+    display: none;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+#signIn{
+    display: none;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border-radius: 10px;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    transition: content 5s ease;
+}
+.search:hover{
+    content: url("../img/icon_search1.svg");
+}
+
+
