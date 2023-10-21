@@ -9,21 +9,23 @@ body{
 }
 header{
     background-color: #4520AB;
+}
+.headerContainer{
+    padding-right:10%;
     height: 80px;
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
-    position: relative;
 }
-header > .info{
+.headerContainer > .info{
     color: #FFFFFF;
     font-size: 21px;
     font-weight: 600;
 }
 .info{
     display: flex;
-    gap: 1em;
+    gap: 1.5em;
 }
 .infoNoSearch{
     display: flex;
