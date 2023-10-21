@@ -11,7 +11,7 @@ header{
     background-color: #4520AB;
 }
 .headerContainer{
-    padding: 0 10%;
+    padding: 0 140px;
     height: 80px;
     display: flex;
     align-items: center;
