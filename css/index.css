@@ -32,13 +32,17 @@ header > .info{
 
 .account > img{
     background-color: lightgray;
-    padding: 5px;
+    padding: 8px;
     border: 1px solid white;
     border-radius: 50%;
     margin-right: 140px;
+    transition: background-color 0.5s ease;
+}
+.account > img:hover{
+    background-color: #FFBC5B;
 }
 .logo{
-    margin-left: 140px;
+    margin-left: 10%;
     width: fit-content;
 
 }
@@ -73,8 +77,9 @@ header > .info{
 main{
     background-color: black;
     height: fit-content;
-    padding: 0 140px 100px;
+    padding-bottom: 10%;
     width: inherit;
+    padding-left: 10%;
 }
 .subscribe{
     padding-top: 8%;
@@ -89,6 +94,8 @@ main{
     padding-top: 2em;
 
 }
+
+
 h2{
     font-size: 30px;
     margin: 0;
@@ -97,21 +104,27 @@ h2{
 .subImage{
     width: 300px;
     height: auto;
+
 }
+
 .arrow{
     font-weight: 400;
     font-size: 50px;
     color: #FFBC5B;
     padding-left: 2%;
 }
-.imagePlaceholderChild{
-    position: relative;
-}
 .imagePlaceholderChild > span{
-    color: #989898;
     font-size: 16px;
     display: block;
     padding: 1% 0;
+}
+.imagePlaceholderChild{
+    color: #989898;
+    position: relative;
+    transition: color 0.5s ease;
+}
+.imagePlaceholderChild:hover{
+    color: white;
 }
 .rate{
     position: absolute;
@@ -132,6 +145,7 @@ h2{
 }
 .recPlaceholderParent{
     padding-top: 2em;
+    align-items: center;
     display: flex;
     gap: 3%;
 }
@@ -141,14 +155,21 @@ h2{
     border-radius: 12px;
 }
 .recPlaceholderChild > span{
-    color: #989898;
     font-size: 16px;
     display: block;
     padding: 1% 0;
 }
 .recPlaceholderChild{
     position: relative;
+    color: #989898;
+    transition: color 0.5s ease;
 }
+
+.recPlaceholderChild:hover{
+    color: white;
+}
+
+
 .login{
     position: fixed;
     display: none;
